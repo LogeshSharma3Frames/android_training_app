@@ -16,36 +16,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
 
-    override fun onStart() {
-        print("onStart")
-        super.onStart()
-    }
-
-    override fun onPause() {
-        print("onPause")
-        super.onPause()
-    }
-
-    override fun onResume() {
-        print("onResume")
-        super.onResume()
-    }
-
-    override fun onDestroy() {
-        print("onDestroy")
-        super.onDestroy()
-    }
-
-    override fun onStop() {
-        print("onStop")
-        super.onStop()
-    }
-
-    override fun onRestart() {
-        print("onRestart")
-        super.onRestart()
-    }
-
     override fun onCreate(savedInstanceState: Bundle?) {
         print("onCreate")
         super.onCreate(savedInstanceState)
